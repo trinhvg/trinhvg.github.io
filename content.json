@@ -1,0 +1,263 @@
+{
+  "updated": "September 2026",
+  "news": [
+    {
+      "date": "Sep 2026",
+      "text": "MiTHras accepted to IEEE Journal of Biomedical and Health Informatics. The preprint is now available.",
+      "url": "https://arxiv.org/abs/2609.24736",
+      "label": "Read the paper"
+    },
+    {
+      "date": "Mar 2026",
+      "text": "Joined the Mahmood Lab as a Postdoctoral Research Fellow at Brigham and Women’s Hospital, Harvard Medical School.",
+      "url": "https://faisal.ai/",
+      "label": "Mahmood Lab"
+    },
+    {
+      "date": "Feb 2026",
+      "text": "Completed my Ph.D. in Computer Engineering at Korea University."
+    }
+  ],
+  "publications": [
+    {
+      "year": 2026,
+      "venue": "IEEE JBHI",
+      "status": "Accepted",
+      "title": "MiTHras: Task-specific Hierarchical Semi-supervised Contrastive Masked Autoencoder for Mitotic Figure Analysis",
+      "authors": "Trinh T. L. Vuong, Simon Graham, Quoc Dang Vu, Phat T. H. Ho, Jeewoo Lim, Mostafa Jahanifar, Nasir Rajpoot, Jin T. Kwak",
+      "description": "Task-specific pretraining for transferable mitotic figure representations, combining contrastive learning with masked reconstruction.",
+      "links": {
+        "Paper": "https://arxiv.org/abs/2609.24736",
+        "DOI": "https://doi.org/10.1109/JBHI.2026.3736928"
+      },
+      "type": "journal"
+    },
+    {
+      "year": 2025,
+      "venue": "arXiv",
+      "status": "Preprint",
+      "title": "ViDRiP-LLaVA: A Dataset and Benchmark for Diagnostic Reasoning from Pathology Videos",
+      "authors": "Trinh T. L. Vuong, Jin Tae Kwak",
+      "description": "Learning from pathology videos to connect histological descriptions with diagnostic reasoning.",
+      "links": {
+        "Paper": "https://arxiv.org/abs/2505.04192",
+        "Code": "https://github.com/trinhvg/ViDRiP-LLaVA"
+      },
+      "type": "preprint",
+      "source_note": "CV title; arXiv 2505.04192 was previously titled VideoPath-LLaVA. Latest repository: https://github.com/trinhvg/ViDRiP-LLaVA"
+    },
+    {
+      "year": 2025,
+      "venue": "Medical Image Analysis",
+      "title": "MoMA: Momentum contrastive learning with multi-head attention-based knowledge distillation for histopathology image analysis",
+      "authors": "Trinh Thi Le Vuong, Jin Tae Kwak",
+      "description": "Transferring knowledge from pretrained models to pathology tasks with limited data.",
+      "links": {
+        "Paper": "https://doi.org/10.1016/j.media.2024.103421",
+        "arXiv": "https://arxiv.org/abs/2308.16561",
+        "Code": "https://github.com/trinhvg/MoMA"
+      },
+      "type": "journal"
+    },
+    {
+      "year": 2025,
+      "venue": "ACM Computing Surveys",
+      "title": "Domain Generalization in Computational Pathology: Survey and Guidelines",
+      "authors": "Mostafa Jahanifar, Manahil Raza, Kesi Xu, Trinh Thi Le Vuong, Robert Jewsbury, Adam Shephard, Neda Zamanitajeddin, Jin Tae Kwak, Shan E. Ahmed Raza, Fayyaz Minhas, Nasir Rajpoot",
+      "description": "A survey and practical guidelines for understanding and addressing domain shift in computational pathology.",
+      "links": {
+        "Paper": "https://doi.org/10.1145/3724391",
+        "arXiv": "https://arxiv.org/abs/2310.19656",
+        "Resources": "https://github.com/mostafajahanifar/awesome-dg-cpath"
+      },
+      "type": "journal"
+    },
+    {
+      "year": 2025,
+      "venue": "arXiv",
+      "type": "preprint",
+      "status": "Preprint",
+      "title": "S-Chain: Structured Visual Chain-of-Thought For Medicine",
+      "authors": "Khai Le-Duc, Duy M. H. Nguyen, Phuong T. H. Trinh, Tien-Phat Nguyen, Nghiem T. Diep, An Ngo, Tung Vu, Trinh Vuong, Anh-Tien Nguyen, Mau Nguyen, Van Trung Hoang, Khai-Nguyen Nguyen, Hy Nguyen, Chris Ngo, Anji Liu, Nhat Ho, Anne-Christin Hauschild, Khanh Xuan Nguyen, Thanh Nguyen-Tang, Pengtao Xie, Daniel Sonntag, James Zou, Mathias Niepert, Anh Totti Nguyen",
+      "description": "Structured visual reasoning grounded in medical images, with expert annotations and multilingual question-answer pairs.",
+      "links": {
+        "Paper": "https://arxiv.org/abs/2510.22728",
+        "Dataset": "https://huggingface.co/datasets/leduckhai/S-Chain"
+      },
+      "source_note": "Public arXiv author list; project dataset README links Trinh Vuong to the same Google Scholar ID trFdwLkAAAAJ."
+    },
+    {
+      "year": 2024,
+      "venue": "MICCAI",
+      "title": "Towards a Text-Based Quantitative and Explainable Histopathology Image Analysis",
+      "authors": "Anh Tien Nguyen, Trinh Thi Le Vuong, Jin Tae Kwak",
+      "description": "Using vision-language representations to produce text-based, interpretable features for pathology image analysis.",
+      "links": {
+        "Paper": "https://arxiv.org/abs/2407.07360"
+      },
+      "type": "conference"
+    },
+    {
+      "year": 2024,
+      "venue": "Medical Image Analysis",
+      "type": "journal",
+      "title": "CoNIC Challenge: Pushing the frontiers of nuclear detection, segmentation, classification and counting",
+      "authors": "Simon Graham, Quoc Dang Vu, Mostafa Jahanifar, et al.; CoNIC Challenge Consortium",
+      "description": "Consortium contribution by Trinh Thi Le Vuong to the CoNIC benchmark for nuclear detection, segmentation, classification, and counting.",
+      "links": {
+        "Paper": "https://doi.org/10.1016/j.media.2023.103047",
+        "arXiv": "https://arxiv.org/abs/2303.06274",
+        "Code": "https://github.com/TissueImageAnalytics/CoNIC"
+      },
+      "source_note": "CV consortium authorship and journal metadata; https://pubmed.ncbi.nlm.nih.gov/38157647/"
+    },
+    {
+      "year": 2024,
+      "venue": "MICCAI",
+      "type": "conference",
+      "title": "FALFormer: Feature-Aware Landmarks Self-attention for Whole-Slide Image Classification",
+      "authors": "Doanh C. Bui, Trinh Thi Le Vuong, Jin Tae Kwak",
+      "description": "Feature-aware landmark self-attention for whole-slide image classification.",
+      "links": {
+        "Paper": "https://doi.org/10.1007/978-3-031-72083-3_12",
+        "arXiv": "https://arxiv.org/abs/2407.07340"
+      },
+      "source_note": "CV, coauthor bibliography https://caodoanh2001.github.io/publications/, and official MICCAI paper https://papers.miccai.org/miccai-2024/paper/2447_paper.pdf"
+    },
+    {
+      "year": 2024,
+      "venue": "MICCAI 2023 workshops · AI for Brain Lesion Detection and Trauma Video Action Recognition",
+      "type": "conference",
+      "title": "QuIIL at T3 Challenge: Towards Automation in Life-Saving Intervention Procedures from First-Person View",
+      "authors": "Trinh T. L. Vuong, Doanh C. Bui, Jin Tae Kwak",
+      "description": "Action recognition, action anticipation, and visual question answering for the Trauma THOMPSON challenge.",
+      "links": {
+        "Paper": "https://doi.org/10.1007/978-3-031-71626-3_10",
+        "arXiv": "https://arxiv.org/abs/2407.13216"
+      },
+      "source_note": "CV publication year and DOI; conference held in 2023; arXiv 2407.13216."
+    },
+    {
+      "year": 2023,
+      "venue": "Medical Image Analysis",
+      "title": "Multi-cell type and multi-level graph aggregation network for cancer grading in pathology images",
+      "authors": "Syed Farhan Abbas, Trinh Thi Le Vuong, Kyungeun Kim, Boram Song, Jin Tae Kwak",
+      "description": "Combining tissue context and cell relationships across multiple graph levels for cancer grading.",
+      "links": {
+        "Paper": "https://doi.org/10.1016/j.media.2023.102936"
+      },
+      "type": "journal"
+    },
+    {
+      "year": 2023,
+      "venue": "DART · MICCAI Workshop",
+      "type": "conference",
+      "title": "Boosting Knowledge Distillation via Random Fourier Features for Prostate Cancer Grading in Histopathology Images",
+      "authors": "Trinh Thi Le Vuong, Jin Tae Kwak",
+      "description": "Contrastive knowledge distillation with random Fourier features for prostate cancer grading.",
+      "links": {
+        "Paper": "https://doi.org/10.1007/978-3-031-45857-6_8",
+        "Code": "https://github.com/trinhvg/KD_CoRFF"
+      },
+      "source_note": "Conference year from CV and author repository. Korea University records print proceedings in 2024: https://pure.korea.ac.kr/en/publications/boosting-knowledge-distillation-viarandom-fourier-features-forpro/"
+    },
+    {
+      "year": 2023,
+      "venue": "SPIE Medical Imaging · Digital and Computational Pathology",
+      "type": "conference",
+      "title": "Quintet margin loss for an improved knowledge distillation in histopathology image analysis",
+      "authors": "Trinh T. L. Vuong, Jin Tae Kwak",
+      "description": "Quintet margin loss for knowledge distillation in histopathology image analysis.",
+      "links": {
+        "Paper": "https://doi.org/10.1117/12.2654275"
+      },
+      "source_note": "CV and SPIE official record https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12471/124710J/Quintet-margin-loss-for-an-improved-knowledge-distillation-in-histopathology/10.1117/12.2654275.full; corrected CV typo of 2021 in venue."
+    },
+    {
+      "year": 2022,
+      "venue": "JAMA Network Open",
+      "title": "Prediction of Epstein-Barr Virus Status in Gastric Cancer Biopsy Specimens Using a Deep Learning Algorithm",
+      "authors": "Trinh Thi Le Vuong, Boram Song, Jin T. Kwak, Kyungeun Kim",
+      "description": "Deep learning for predicting Epstein-Barr virus status from gastric biopsy histology.",
+      "links": {
+        "Paper": "https://doi.org/10.1001/jamanetworkopen.2022.36408",
+        "Full text": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9547324/"
+      },
+      "type": "journal"
+    },
+    {
+      "year": 2022,
+      "venue": "IEEE JBHI",
+      "type": "journal",
+      "title": "Multi-Scale Binary Pattern Encoding Network for Cancer Classification in Pathology Images",
+      "authors": "Trinh T. L. Vuong, Boram Song, Kyungeun Kim, Yong M. Cho, Jin T. Kwak",
+      "description": "Multi-scale binary pattern encoding for cancer classification in histopathology images.",
+      "links": {
+        "Paper": "https://doi.org/10.1109/JBHI.2021.3099817",
+        "Code": "https://github.com/trinhvg/MSBP_Net"
+      },
+      "source_note": "Published authors and 2022 issue year confirmed at https://pubmed.ncbi.nlm.nih.gov/34310334/; corrects outdated CV author list."
+    },
+    {
+      "year": 2022,
+      "venue": "IEEE JBHI",
+      "type": "journal",
+      "title": "SONNET: A Self-Guided Ordinal Regression Neural Network for Segmentation and Classification of Nuclei in Large-Scale Multi-Tissue Histology Images",
+      "authors": "Tan N. N. Doan, Boram Song, Trinh T. L. Vuong, Kyungeun Kim, Jin T. Kwak",
+      "description": "Self-guided ordinal regression for joint nuclei segmentation and classification across tissue types.",
+      "links": {
+        "Paper": "https://doi.org/10.1109/JBHI.2022.3149936"
+      },
+      "source_note": "CV and https://pubmed.ncbi.nlm.nih.gov/35139032/"
+    },
+    {
+      "year": 2022,
+      "venue": "Medical Computer Vision · ECCV Workshop",
+      "type": "conference",
+      "title": "IMPaSh: A Novel Domain-Shift Resistant Representation for Colorectal Cancer Tissue Classification",
+      "authors": "Trinh Thi Le Vuong, Quoc Dang Vu, Mostafa Jahanifar, Simon Graham, Jin Tae Kwak, Nasir Rajpoot",
+      "description": "Self-supervised contrastive learning and patch shuffling for domain-shift-resistant tissue representations.",
+      "links": {
+        "Paper": "https://arxiv.org/abs/2208.11052",
+        "Code": "https://github.com/trinhvg/IMPash"
+      },
+      "source_note": "Conference year from CV and author repository. Proceedings published in 2023."
+    },
+    {
+      "year": 2021,
+      "venue": "Medical Image Analysis",
+      "title": "Joint categorical and ordinal learning for cancer grading in pathology images",
+      "authors": "Trinh Thi Le Vuong, Kyungeun Kim, Boram Song, Jin Tae Kwak",
+      "description": "Learning categorical and ordinal structure together for colorectal and prostate cancer grading.",
+      "links": {
+        "Paper": "https://doi.org/10.1016/j.media.2021.102206",
+        "Code": "https://github.com/trinhvg/JCO_Learning-pytorch"
+      },
+      "type": "journal"
+    },
+    {
+      "year": 2021,
+      "venue": "MICCAI",
+      "type": "conference",
+      "title": "Ranking Loss: A Ranking-Based Deep Neural Network for Colorectal Cancer Grading in Pathology Images",
+      "authors": "Trinh Thi Le Vuong, Kyungeun Kim, Boram Song, Jin Tae Kwak",
+      "description": "A ranking-based neural network for colorectal cancer grading from pathology images.",
+      "links": {
+        "Paper": "https://doi.org/10.1007/978-3-030-87237-3_52"
+      },
+      "source_note": "CV and Springer chapter link supplied in CV."
+    },
+    {
+      "year": 2020,
+      "venue": "IEEE ICEIC",
+      "type": "conference",
+      "title": "Multi-task Deep Learning for Colon Cancer Grading",
+      "authors": "Thi Le Trinh Vuong, Daigeun Lee, Jin Tae Kwak, Kyungeun Kim",
+      "description": "Multi-task deep learning for automated colon cancer grading.",
+      "links": {
+        "Paper": "https://ieeexplore.ieee.org/document/9051305/"
+      },
+      "source_note": "CV and official IEEE article 9051305."
+    }
+  ]
+}

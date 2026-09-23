@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Trinh Vuong | Computational Pathology</title>
+<meta name="description" content="Trinh Vuong is a postdoctoral research fellow at Brigham and Women's Hospital and Harvard Medical School, working on computational pathology and medical AI.">
+<meta name="theme-color" content="#8b263e">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%238b263e'/%3E%3Ctext x='32' y='43' font-family='Georgia' font-size='38' text-anchor='middle' fill='white'%3ET%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="topbar"><div class="topbar-inner"><a class="wordmark" href="#about" aria-label="Trinh Vuong home">tv<span>.</span></a><nav aria-label="Main navigation"><a href="#about">About</a><a href="#news">News</a><a href="#publications">Publications</a><a href="#background">Background</a></nav></div></header>
+<div class="layout">
+<aside class="profile" aria-label="Profile">
+<div class="portrait-wrap"><img class="portrait" src="images/trinh-portrait.png" width="800" height="800" alt="Portrait of Trinh Vuong"><img class="sticker agent-sticker" src="images/agent-sticker.png" width="1254" height="1254" alt="" aria-hidden="true"></div>
+<p class="eyebrow">COMPUTATIONAL PATHOLOGY</p>
+<h1>Trinh <span class="surname">Vuong<span>.</span></span></h1>
+<p class="native-name" lang="vi">Vương Thị Lệ Trinh</p>
+<p class="role">Postdoctoral Research Fellow</p>
+<p class="affiliation">Brigham and Women’s Hospital<br>Harvard Medical School</p>
+<a class="lab-link" href="https://faisal.ai/">Mahmood Lab <span aria-hidden="true">↗</span></a>
+<p class="location">Boston, Massachusetts</p>
+<div class="profile-links"><a href="https://scholar.google.ca/citations?hl=en&amp;user=trFdwLkAAAAJ">Google Scholar <span aria-hidden="true">↗</span></a><a href="https://github.com/trinhvg">GitHub <span aria-hidden="true">↗</span></a><a href="https://orcid.org/0000-0002-0775-2884">ORCID <span aria-hidden="true">↗</span></a><a href="https://dblp.org/pid/302/5576.html">DBLP <span aria-hidden="true">↗</span></a></div>
+<p class="name-note">Publishing as<br>Trinh Thi Le Vuong / Trinh T. L. Vuong</p>
+</aside>
+<main id="main">
+<section id="about" class="about" aria-labelledby="about-heading"><p class="eyebrow section-kicker">ABOUT</p><h2 id="about-heading">Hi, I’m Trinh.</h2>
+<p class="intro">I develop machine learning methods for <strong>computational pathology</strong>, with a focus on learning useful representations from medical images and connecting visual evidence with diagnostic reasoning.</p>
+<p>I am a Postdoctoral Research Fellow in the <a href="https://faisal.ai/">Mahmood Lab</a> at Brigham and Women’s Hospital, Harvard Medical School. I received my Ph.D. in Computer Engineering from Korea University in 2026.</p>
+<p>My research spans multimodal learning, self-supervised learning, and domain generalization, with applications in cancer grading and mitotic figure analysis.</p>
+<div class="interests" aria-label="Research interests"><span>Medical AI</span><span>Vision-language models</span><span>Representation learning</span><span>Domain generalization</span></div>
+<div class="personal-note">
+<figure class="photo-card"><img src="images/trinh-graduation.jpg" width="1600" height="1600" alt="Trinh holding her diploma on the steps at Korea University" loading="lazy"><figcaption>Korea University · 2026</figcaption></figure>
+<div class="photo-note"><p class="handwritten">A little moment<br>from Seoul.</p><p class="photo-caption">Celebrating the end of my Ph.D.<br>and the start of a new chapter.</p></div>
+<img class="sticker pathology-sticker" src="images/pathology-sticker.png" width="1254" height="1254" alt="" aria-hidden="true" loading="lazy">
+</div>
+</section>
+<section id="news" class="news-section" aria-labelledby="news-heading"><div class="section-heading"><h2 id="news-heading">Recent news</h2><span class="section-number" aria-hidden="true">01</span></div><ul class="news-list">{{NEWS}}</ul></section>
+<section id="publications" aria-labelledby="publications-heading"><div class="section-heading"><h2 id="publications-heading">Publications</h2><span class="section-number" aria-hidden="true">02</span></div><p class="section-subtitle">Journal articles, conference papers, and preprints. <a href="https://scholar.google.ca/citations?hl=en&amp;user=trFdwLkAAAAJ">Google Scholar ↗</a></p>
+<div class="publication-tabs" role="tablist" aria-label="Publication type" hidden>
+<button type="button" id="journal-tab" role="tab" aria-selected="true" aria-controls="journal-panel" tabindex="0">Journal <span class="tab-count">{{JOURNAL_COUNT}}</span></button>
+<button type="button" id="conference-tab" role="tab" aria-selected="false" aria-controls="conference-panel" tabindex="-1">Conference <span class="tab-count">{{CONFERENCE_COUNT}}</span></button>
+<button type="button" id="preprint-tab" role="tab" aria-selected="false" aria-controls="preprint-panel" tabindex="-1">Preprint <span class="tab-count">{{PREPRINT_COUNT}}</span></button>
+</div>
+<div id="journal-panel" class="publications" role="tabpanel" aria-labelledby="journal-tab" tabindex="0"><h3 class="fallback-heading">Journal papers</h3>{{JOURNALS}}</div>
+<div id="conference-panel" class="publications" role="tabpanel" aria-labelledby="conference-tab" tabindex="0"><h3 class="fallback-heading">Conference papers</h3>{{CONFERENCES}}</div>
+<div id="preprint-panel" class="publications" role="tabpanel" aria-labelledby="preprint-tab" tabindex="0"><h3 class="fallback-heading">Preprints</h3>{{PREPRINTS}}</div></section>
+<section id="background" class="background-section" aria-labelledby="background-heading"><div class="section-heading"><h2 id="background-heading">Background</h2><span class="section-number" aria-hidden="true">03</span></div><div class="background-row"><span class="background-date">2026 – present</span><div><h3>Postdoctoral Research Fellow</h3><p>Brigham and Women’s Hospital · Harvard Medical School</p><p class="muted">Department of Pathology, Mahmood Lab</p></div></div><div class="background-row"><span class="background-date">2026</span><div><h3>Ph.D. in Computer Engineering</h3><p>Korea University, Seoul, South Korea</p></div></div></section>
+<footer><span>© 2026 Trinh Vuong</span><span>Updated {{UPDATED}}</span></footer>
+</main>
+</div>
+<script src="tabs.js" defer></script>
+</body>
+</html>
