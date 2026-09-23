@@ -13,3 +13,9 @@ body{background:#fffdfb}.topbar{background:rgba(255,253,251,.97)}.layout{padding
 @media(max-width:520px){.personal-note{padding-right:0;gap:22px;min-height:230px}.pathology-sticker{width:82px;height:82px;right:0;bottom:-22px;opacity:.7}.about .handwritten{font-size:21px}.photo-caption br{display:none}.photo-note{padding-right:2px}.profile{padding-right:124px}.portrait-wrap{margin-right:-124px}.profile-links{margin-right:-124px}.profile h1{font-size:36px}.profile h1 .surname{display:block}.profile .eyebrow{max-width:140px;line-height:1.65}}
 @media(max-width:380px){.personal-note{gap:16px}.photo-card{flex-basis:140px;width:140px}.photo-card img{width:122px;height:143px}.about .handwritten{font-size:20px}}
 @media print{body{background:white}.sticker,.personal-note{display:none}.portrait-wrap{float:right}.portrait{width:100px;height:100px}.profile{padding-right:0}}
+
+/* Bio paragraphs: consistent sizing on desktop and mobile. */
+.about > p:not(.eyebrow) {
+  font-size: 14px;
+  line-height: 1.0;
+}
