@@ -27,8 +27,9 @@
       "authors": "Trinh T. L. Vuong, Simon Graham, Quoc Dang Vu, Phat T. H. Ho, Jeewoo Lim, Mostafa Jahanifar, Nasir Rajpoot, Jin T. Kwak",
       "description": "Task-specific pretraining for transferable mitotic figure representations, combining contrastive learning with masked reconstruction.",
       "links": {
-        "Paper": "https://arxiv.org/abs/2609.24736",
-        "DOI": "https://doi.org/10.1109/JBHI.2026.3736928"
+        "arXiv": "https://arxiv.org/abs/2609.24736",
+        "DOI": "https://doi.org/10.1109/JBHI.2026.3736928",
+        "Paper": "https://ieeexplore.ieee.org/document/11704105"
       },
       "type": "journal"
     },
