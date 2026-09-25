@@ -17,7 +17,7 @@ for p in content['publications']:
         authors=authors.replace(name,f'<strong>{name}</strong>')
     badge=f'<span class="status">{e(p["status"])}</span>' if p.get('status') else ''
     links=''.join(link(u,k,'paper-link') for k,u in p['links'].items())
-    pubs[p['type']].append(f'''<article class="publication"><div class="pub-year">{p['year']}</div><div class="pub-body"><div class="venue">{e(p['venue'])}{badge}</div><h3>{link(next(iter(p['links'].values())),p['title'])}</h3><p class="authors">{authors}</p><p class="description">{e(p['description'])}</p><div class="paper-links">{links}</div></div></article>''')
+    pubs[p['type']].append(f'''<article class="publication"><div class="pub-year">{p['year']}</div><div class="pub-body"><div class="venue">{e(p['venue'])}{badge}</div><h3>{link(next(iter(p['links'].values())),p['title'])}</h3><p class="authors">{authors}</p><div class="paper-links">{links}</div></div></article>''')
 template=(root/'template.html').read_text()
 for key,value in {'NEWS':'\n'.join(news),'JOURNALS':'\n'.join(pubs['journal']),'CONFERENCES':'\n'.join(pubs['conference']),'PREPRINTS':'\n'.join(pubs['preprint']),'JOURNAL_COUNT':str(len(pubs['journal'])),'CONFERENCE_COUNT':str(len(pubs['conference'])),'PREPRINT_COUNT':str(len(pubs['preprint'])),'UPDATED':e(content['updated'])}.items():
     template=template.replace('{{'+key+'}}',value)
