@@ -1,5 +1,5 @@
 {
-  "updated": "September 2026",
+  "updated": "November 2026",
   "news": [
     {
       "date": "Sep 2026",
@@ -19,6 +19,17 @@
     }
   ],
   "publications": [
+    {
+      "year": 2026,
+      "venue": "arXiv",
+      "status": "Preprint",
+      "title": "A general-purpose System One decision model for clinical records",
+      "authors": "Andrew Zhang, Trinh T. L. Vuong, Sophia J. Wagner, Dongmin Bang, Tong Ding, Yuchang Su, Mary Cipperman, Christina S. Chen, Judith Lefkes, Ramin Kahidi, Ming Y. Lu, Caiwei Tian, Tianhao Luo, Jingnan Ma, Rowland Pettit, Long Phi Le, Faisal Mahmood",
+      "links": {
+        "Paper": "https://arxiv.org/abs/2610.27099"
+      },
+      "type": "preprint"
+    },
     {
       "year": 2026,
       "venue": "IEEE JBHI",
